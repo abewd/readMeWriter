@@ -13,16 +13,35 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# 
-${data.projectTitle}
-${data.q1motivation}
-${data.q2whyBuildThis}
-${data.q3whatProblem}
-${data.q4whatLearn}
-${data.q5installation}
-${data.q6useage}
-${data.q7credits}
-${data.q8license}
-`;
+  ${data.q8license}
+  
+  # ${data.projectTitle}
+  
+  ## Description
+  
+  The motivation behind this project is ${data.q1motivation}. 
+  
+  This project was built because ${data.q2whyBuildThis}.
+  
+  This command line solves the problem of ${data.q3whatProblem}.
+  
+  This project taught me ${data.q4whatLearn}.
+  
+  
+  ## Installation
+  To install this application ${data.q5installation}.
+  
+  ## Usage
+  The intended use of this application is ${data.q6useage}.
+  
+  
+  ## Credits
+  The development person/team responsible for this is ${data.q7credits}.
+  
+  ## Licence 
+  This project has a ${data.q8license} license.
+  
+  `;
 }
 
 module.exports = generateMarkdown;

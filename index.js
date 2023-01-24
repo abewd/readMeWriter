@@ -17,7 +17,7 @@ const questions = [
 
   // QUESTION 1
   {
-    type: "Input",
+    type: "input",
     name: "q1motivation",
     message: "What was your motivation?",
     //validate: (Function) Receive the user input and answers hash.
@@ -26,46 +26,62 @@ const questions = [
   },
   // QUESTION 2
   {
-    type: "Input",
+    type: "input",
     name: "q2whyBuildThis",
     message: "Why did you build this project?",
   },
   // QUESTION 3
   {
-    type: "Input",
+    type: "input",
     name: "q3whatProblem",
     message: "Why problem does it solve?",
   },
   // QUESTION 4
   {
-    type: "Input",
+    type: "input",
     name: "q4whatLearn",
-    message: "Why did you this project?",
+    message: "Why did you learn during this project?",
   },
   // QUESTION 5
   {
-    type: "Input",
+    type: "input",
     name: "q5installation",
-    message: "Why did you this project?",
+    message:
+      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
   },
   // QUESTION 6
   {
-    type: "Input",
+    type: "input",
     name: "q6useage",
-    message: "Why did you this project?",
+    message:
+      "Provide instructions and examples for use. Include screenshots as needed.",
   },
   // QUESTION 7
   {
-    type: "Input",
+    type: "input",
     name: "q7credits",
-    message: "Why did you this project?",
+    message:
+      "List your collaborators, if any, with links to their GitHub profiles.",
   },
   // QUESTION 8
   {
-    type: "List",
+    type: "list",
     name: "q8licence",
     message: "Select the license you wish to use:",
     choices: ["MIT", "Apache", "GPL", "Other"],
+  },
+  // QUESTION 9
+  {
+    type: "input",
+    name: "q9userName",
+    message: "Please input your GitHub username:",
+  },
+
+  // QUESTION 10
+  {
+    type: "input",
+    name: "q10eMail",
+    message: "Please input your email:",
   },
 ];
 

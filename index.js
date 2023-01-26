@@ -53,8 +53,7 @@ const questions = [
   {
     type: "input",
     name: "q6useage",
-    message:
-      "Provide instructions and examples for use. Include screenshots as needed.",
+    message: "Provide instructions and examples for use.",
   },
   // QUESTION 7
   {

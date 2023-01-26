@@ -10,17 +10,15 @@ const licenses = {
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return data.license
-    ? `![License Badge](https://img.shields.io/badge/license-${data.license}-green.svg)`
+  return license
+    ? `![License Badge](https://img.shields.io/badge/license-${license}-green.svg)`
     : "";
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return data.license
-    ? `https://choosealicense.com/licenses/${data.license}/`
-    : "";
+  return license ? `https://choosealicense.com/licenses/${license}/` : "";
 }
 
 // TODO: Create a function that returns the license section of README
@@ -39,7 +37,7 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return ` # ${data.projectTitle}
   
-  ${renderLicenseBadge(data)}
+  ${renderLicenseBadge(data.q8license)}
 
   ## Description
 

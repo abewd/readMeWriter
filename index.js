@@ -87,12 +87,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, userInputs) {
-  //   let markDown = generateMarkdown(userInputs);
-  //   console.log(markDown, fileName, userInputs, "hello");
+  let markDown = generateMarkdown(userInputs);
+  console.log(markDown, fileName, userInputs, "hello");
 
-  function writeToFile(fileName, userInputs) {
-    let markDown = generateMarkdown(userInputs);
-  }
   fs.writeFileSync(fileName, markDown, function () {
     console.log("README.md has been generated.");
   });

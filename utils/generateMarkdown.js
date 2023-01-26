@@ -68,9 +68,14 @@ function generateMarkdown(data) {
   ## Questions 
 
   If you have any questions feel free contact me: 
-  - Github: https://github.com/
-  - Email: 
+  - Github: https://github.com/${q9userName}
+  - Email: ${q10eMail}
   
+  ## Screenshots 
+  assets\screenshot1.png
+
+  ## Video 
+
   `;
 }
 

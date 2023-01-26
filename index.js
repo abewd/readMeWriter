@@ -5,6 +5,7 @@
 const inquirer = require("inquirer");
 // you only use relative path when its a code youve written, inquirer isnt.
 const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -86,10 +87,10 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, userInputs) {
-  let markDown = runGenMarkdown(userInputs);
+  let markDown = generateMarkdown(userInputs);
 
   fs.writeFile(fileName, markDown, function () {
-    console.log("readMe.md has been generated!");
+    console.log("Success! README.md has been generated.");
   });
 }
 // TODO: Create a function to initialize app

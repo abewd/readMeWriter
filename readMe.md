@@ -1,53 +1,54 @@
- # test
-  
-  ![License Badge](https://img.shields.io/badge/license-MIT-green.svg)
+# readMe File Generator
 
-  ## Description
+![License Badge](https://img.shields.io/badge/license-Other-green.svg)
 
-  ## Table Of Contents
+## Description
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Questions](#questions)
-  * [Screenshot](#screenshot)
-  * [Video](#video)
+## Table Of Contents
 
-  
-  The motivation behind this project is test. 
-  
-  This project was built because test.
-  
-  This command line solves the problem of .
-  
-  This project taught me .
-  
-  
-  ## Installation
-  To install this application .
-  
-  ## Usage
-  The intended use of this application is .
-  
-  
-  ## Credits
-  The development person/team responsible for this is .
-  
-  ## Licence 
-  This project has a MIT license.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
+- [Screenshot](#screenshot)
+- [Video](#video)
 
-  ## Questions 
+The motivation behind this project is To create great applications!.
 
-  If you have any questions feel free contact me: 
-  - Github: https://github.com/
-  - Email: 
+This project was built because To assist me and friends with writing long readme files.
 
-  
-  
-  ## Screenshot
-  assetsscreenshot1.png
+This command line solves the problem of It solvse the issue of dedicating too much time writing readme files .
 
-  ## Video 
+This project taught me I learnt how to use nodeJS properly and use it for small cool applications like this one.
 
-  
+## Installation
+
+To install this application 1. install npm inquirer 2. watch this video to fill the prompts in terminal .
+
+## Usage
+
+The intended use of this application is watch this video!.
+
+## Credits
+
+The development person/team responsible for this is Abdullah Al Fadhly.
+
+## Licence
+
+This project has a Other license.
+
+## Questions
+
+If you have any questions feel free contact me:
+
+- Github: https://github.com/abewd
+- Email: abdullahalfadhly@gmail.com
+
+## Screenshot
+
+assetsscreenshot1.png
+
+## Video
+
+https://drive.google.com/file/d/1pWSOVWeUqouubjF1rVa4xfh-EiZcDbDg/view

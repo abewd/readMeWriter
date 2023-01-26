@@ -1,10 +1,18 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  return data.license
+    ? `![License Badge](https://img.shields.io/badge/license-${data.license}-green.svg)`
+    : "";
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  return data.license
+    ? `https://choosealicense.com/licenses/${data.license}/`
+    : "";
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -12,12 +20,13 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# 
-  ${data.q8license}
+  return ` # ${data.projectTitle}
   
-  # ${data.projectTitle}
-  
+  ${renderLicenseBadge(data)}
+
   ## Description
+
+  ## Table Of Contents
   
   The motivation behind this project is ${data.q1motivation}. 
   

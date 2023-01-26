@@ -37,11 +37,20 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return ` # ${data.projectTitle}
   
-  ${renderLicenseBadge(data.q8licence)}
+  ${renderLicenseBadge(data.q8license)}
 
   ## Description
 
   ## Table Of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Questions](#questions)
+  * [Screenshot](#screenshot)
+  * [Video](#video)
+
   
   The motivation behind this project is ${data.q1motivation}. 
   
@@ -68,10 +77,12 @@ function generateMarkdown(data) {
   ## Questions 
 
   If you have any questions feel free contact me: 
-  - Github: https://github.com/${q9userName}
-  - Email: ${q10eMail}
+  - Github: https://github.com/${data.q9userName}
+  - Email: ${data.q10eMail}
+
+  ${renderLicenseSection(data)}
   
-  ## Screenshots 
+  ## Screenshot
   assets\screenshot1.png
 
   ## Video 

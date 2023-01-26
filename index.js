@@ -66,7 +66,7 @@ const questions = [
   // QUESTION 8
   {
     type: "list",
-    name: "q8licence",
+    name: "q8license",
     message: "Select the license you wish to use:",
     choices: ["MIT", "Apache", "GPL", "Other"],
   },

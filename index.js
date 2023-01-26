@@ -87,10 +87,14 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, userInputs) {
-  let markDown = generateMarkdown(userInputs);
+  //   let markDown = generateMarkdown(userInputs);
+  //   console.log(markDown, fileName, userInputs, "hello");
 
-  fs.writeFile(fileName, markDown, function () {
-    console.log("Success! README.md has been generated.");
+  function writeToFile(fileName, userInputs) {
+    let markDown = generateMarkdown(userInputs);
+  }
+  fs.writeFileSync(fileName, markDown, function () {
+    console.log("README.md has been generated.");
   });
 }
 // TODO: Create a function to initialize app
@@ -104,6 +108,9 @@ function init() {
 
     .then((answers) => {
       // pass these answers to generate markdown . js
+      console.log(answers);
+      writeToFile("readMe.md", answers);
+
       generateMarkdown(answers);
       console.log(generateMarkdown(answers));
     })

@@ -37,7 +37,7 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return ` # ${data.projectTitle}
   
-  ${renderLicenseBadge(data.q8license)}
+  ${renderLicenseBadge(data.q8licence)}
 
   ## Description
 
